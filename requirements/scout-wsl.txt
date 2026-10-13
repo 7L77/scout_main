@@ -1,0 +1,23 @@
+# Python 3.10 / legacy gym + mujoco-py / JAX CUDA 12.
+# Install in the separate GPUscout environment.
+numpy==1.26.4
+jax[cuda12]==0.6.2
+flax==0.10.6
+optax==0.2.5
+chex==0.1.89
+flashbax==0.1.3
+distrax==0.1.5
+tensorflow-probability==0.25.0
+orbax-checkpoint==0.11.5
+ml-collections==1.1.0
+absl-py
+dm-tree
+tqdm
+pillow
+requests
+gym==0.23.1
+mujoco-py==2.1.2.14
+Cython==0.29.36
+wandb==0.12.21
+protobuf==3.20.3
+setuptools==80.10.2
